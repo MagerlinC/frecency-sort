@@ -1,0 +1,40 @@
+{
+  "name": "frecency-sort",
+  "version": "1.0.0",
+  "description": "Generic frecency sorting algorithm using localstorage. Call the updateFrecency function to update the data, and use frecencySort() to sort your data.",
+  "main": "index.ts",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MagerlinC/frecency-sort.git"
+  },
+  "keywords": [
+    "frecensy",
+    "sort",
+    "recency",
+    "frequency",
+    "search",
+    "filter"
+  ],
+  "author": "magerlinc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MagerlinC/frecency-sort/issues"
+  },
+  "homepage": "https://github.com/MagerlinC/frecency-sort#readme",
+  "devDependencies": {
+    "@jest/globals": "^29.7.0",
+    "@tsconfig/node20": "^20.1.4",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.13.4",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2"
+  }
+}

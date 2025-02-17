@@ -1,3 +1,6 @@
-import { updateFrecencyData, sortedByFrecency } from "./frecency-sort";
+import { sortByFrecency, updateFrecencyData } from "./frecency-sort";
 
-export { updateFrecencyData, sortedByFrecency };
+module.exports = {
+  sortByFrecency,
+  updateFrecencyData,
+};
