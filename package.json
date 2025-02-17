@@ -1,6 +1,6 @@
 {
   "name": "frecency-sort",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generic frecency sorting algorithm using localstorage",
   "main": "index.ts",
   "scripts": {
@@ -11,10 +11,10 @@
     "url": "git+https://github.com/MagerlinC/frecency-sort.git"
   },
   "keywords": [
-    "frecensy",
-    "sort",
+    "frecency",
     "recency",
     "frequency",
+    "sort",
     "search",
     "filter"
   ],
