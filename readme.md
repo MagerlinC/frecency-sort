@@ -1,5 +1,7 @@
 # Frecency Sort
 
+[![NPM](https://nodei.co/npm/<package>.png)](https://npmjs.org/package/frecency-sort)
+
 Generic frecency sorting solution using localStorage based on the [popular blog post by Slack](https://slack.engineering/a-faster-smarter-quick-switcher/).
 
 To use this library, simply import updateFrecencyData and sortedByFrecency and:
