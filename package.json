@@ -1,9 +1,9 @@
 {
   "name": "frecency-sort",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Generic frecency sorting algorithm using localstorage",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "dist/frecency-sort.js",
+  "types": "dist/frecency-sort.d.ts",
   "scripts": {
     "test": "jest",
     "build": "tsc"
