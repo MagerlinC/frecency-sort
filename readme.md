@@ -6,13 +6,13 @@ Generic frecency sorting solution using localStorage based on the [popular blog 
 
 
 ## Table of Contents
-- [What is frecency?](what-is-frecency?)
-- [Installation](installation)
-- [Using this library](using-this-library)
-  - [A note on text searching](a-note-on-text-searching)
-  - [Implementation example](implementation-example)
-  - [Storing frecency data](storing-frecency-data)
-    - [Shouldn't frecency calculations happen in the API, and be stored in a DB?](shouldnt-frecency-calculations-happen-in-the-api-and-be-stored-in-a-db)
+- [What is frecency?](#what-is-frecency?)
+- [Installation](#installation)
+- [Using this library](#using-this-library)
+  - [A note on text searching](#a-note-on-text-searching)
+  - [Implementation example](#implementation-example)
+  - [Storing frecency data](#storing-frecency-data)
+    - [Shouldn't frecency calculations happen in the API, and be stored in a DB?](#shouldnt-frecency-calculations-happen-in-the-api-and-be-stored-in-a-db)
 
 ## What is frecency?
 "Frecency" is a term which combines "recency" and "frequency". While I can recommend the above post for a more in-depth explanation, essentially this algorithm sorts options in a list based on a mix of how much they are used, and how frequently they are used.
