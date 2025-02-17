@@ -24,7 +24,7 @@ const getScoreForStoredMatch = (storedMatch?: StoredQueryMatch): number => {
   return (storedMatch.visits.length * visitScore) / storedMatch.visits.length;
 };
 
-export const compareByFrecency = (
+const compareByFrecency = (
   needle: string,
   matchAId: string,
   matchBId: string,
@@ -46,6 +46,8 @@ export const compareByFrecency = (
   );
   return scoreB - scoreA;
 };
+
+// Exports
 
 export function sortByFrecency<T extends { matchId: string }>(
   query: string,
