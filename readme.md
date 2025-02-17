@@ -52,7 +52,10 @@ A generic implementation, including basic searching, could look something like t
 
 ```typescript
 const myLocalStorageKey = "my-frecency-data"
-const users = [{matchingId: "some-guid", name: "John Cena"},{matchingId: "some-other-guid", name: "John Doe"}]  
+const users = [
+    {matchingId: "some-guid", name: "John Cena"},
+    {matchingId: "some-other-guid", name: "John Doe"}
+]  
 const searchQuery = "John"
 const matchingUsers = users.filter(u => u.name.includes(searchQuery))
 const sortedUsers = sortByFrecency(searchQuery, matchingUsers, myLocalStorageKey)
