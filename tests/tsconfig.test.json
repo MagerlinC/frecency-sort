@@ -4,25 +4,18 @@
   "display": "Node 20",
   "_version": "20.1.0",
   "compilerOptions": {
+    "noEmit": true,
     "lib": [
       "es2023",
       "dom"
     ],
     "incremental": true, /* Enable incremental compilation */
     "target": "es5", /* Specify ECMAScript target version: */
-    "module": "commonjs", /* 'none', 'commonjs', 'amd', 'system', etc */
-    "moduleResolution": "node",
-    "declaration": true, /* Concatenate & emit output to single file.*/
-    "outDir": "dist", /* Redirect output to the directory. */
     "esModuleInterop": true, /* Enables intero between CommonJS and ES */
     "skipLibCheck": true, /* Skip type checking of declaration files. */
     "forceConsistentCasingInFileNames": true /* Disallow inconsistently */
   },
   "include": [
-    "src/**/*.ts"
-  ],
-  "exclude": [
-    "node_modules",
-    "tests"
+    "**/*.ts"
   ]
 }

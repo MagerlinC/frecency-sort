@@ -1,4 +1,4 @@
-import { sortByFrecency, updateFrecencyData } from "../frecency-sort";
+import { sortByFrecency, updateFrecencyData } from "../src/frecency-sort";
 
 const setUpLocalStorageMock = () => {
   const localStorageMock = (function () {
