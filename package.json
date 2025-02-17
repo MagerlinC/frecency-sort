@@ -1,7 +1,7 @@
 {
   "name": "frecency-sort",
   "version": "1.0.0",
-  "description": "Generic frecency sorting algorithm using localstorage. Call the updateFrecency function to update the data, and use frecencySort() to sort your data.",
+  "description": "Generic frecency sorting algorithm using localstorage",
   "main": "index.ts",
   "scripts": {
     "test": "jest"
